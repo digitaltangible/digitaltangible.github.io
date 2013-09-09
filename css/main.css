@@ -519,7 +519,10 @@ ul.team-social-icons li a:hover {
 
 .blog-article {
   padding-bottom: 80px;
+}
 
+.blog-article p {
+  text-align: justify;
 }
 
 .news-date {
@@ -969,11 +972,18 @@ h3 {
 
 }
 
-
+/* offset for anchors */
 :target {
     margin-top: -100px;
     padding-top: 100px;
 }
+
+
+/* floating images */
+p img.pull-left{
+    margin-right: 20px;
+}
+
 
 
 
