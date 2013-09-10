@@ -37,6 +37,10 @@ h3 {
     line-height: 30px;
     letter-spacing: -0.7px;
 }
+.popover {
+  max-width: 400px;
+  width: auto;
+}
 
 .popover h3{
     color: black;

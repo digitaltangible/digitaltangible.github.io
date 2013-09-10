@@ -486,5 +486,5 @@ jQuery(document).ready(function ($) {
 
 
     // exlibs
-    $("div.exlib").popover();
+    $("div.exlib").popover({html:true});
 });
