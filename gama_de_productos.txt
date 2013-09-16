@@ -46,7 +46,6 @@
                         <ul class="dropdown-menu">
                             <li><a href="que_es_Seebook.html#0a">Un ebook que se puede tocar</a></li>
                             <li><a href="que_es_Seebook.html#1a">¿Cómo funciona?</a></li>
-						
                             <li><a href="que_es_Seebook.html#2a">¿Por qué "Seebook"?</a></li>
                         </ul>
                     </li>
@@ -98,83 +97,54 @@
             <div class="span9 article-container">
 
                 <!--Article One -->
-                <div class="row-fluid blog-article">
-                    <div>
-                        <h2 id="0c">Editoriales</h2>
-                        <br>
+       <h2 id="1aa">Gama de productos</h2>
+        <br>
 
-                        <p>Editar con nosotros es muy fácil y económico. En Digital Tangible le cobraremos un precio
-                            fijo por tarjeta, como si fuéramos una imprenta (1,- euro en la modalidad estándar, son una
-                            tirada mínima de 500 ejemplares). Usted, como editor, decidirá el P.V.P.
-                            final que irá impreso en la tarjeta. En Digital Tangible nos encargaremos de imprimírselas a
-                            su gusto.
-                            Pero, sobre todo, nos ocuparemos del alojamiento seguro de sus archivos
-                            digitales, de la incorporación del ExLib y del mantenimiento de la aplicación informática
-                            que permite la descarga.</p>
+        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"><b> Seebook estándar:</b></p>
 
-                        <p>Seebook responde a muchos de los retos que la era digital plantea al mundo de la edición.
-                            Seebook permite: </p><br>
+        <p>Díptico de 12 x 18 cm (tamaño cerrado). </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Preservar las estructuras de distribución y venta ya 
-						existentes, en especial de las
-                            librerías. </p><br>
+        <p>Impresión de gran calidad en cartulina de 300 gr, con barniz mate. </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Llevar un estricto control de tirada gracias a la numeración 
-						de las series. </p><br>
+        <p>Incluye sistema ExLib (marca de agua incrustada en el ebook).</p>
 
-                        <div class="text-center">
-                            <img alt="" src="img/detalle_para_serie3.jpg" width="400" height="400"/>
-                        </div>
-                        <br><br>
+        <p>Incluye numeración de serie.</p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Llevar también a las librerías los ebooks que ya tenga 
-						en el mercado a un precio igual o
-                            inferior al de las plataformas abiertas de venta. </p><br>
+        <p>Tamaño normalizado y con espacio en blanco, idóneo para ser enviado como postal.</p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> La edición en exclusiva, con el sello de su editorial, 
-						de aquellos autores de calidad cuyo
-                            público minoritario haga arriesgada la edición tradicional en papel. Como editor, podrá
-                            garantizarles
-                            algo que un ebook convencional no permite: la presencia en librerías y tener la obra editada
-                            con toda
-                            la garantía de su sello editorial (con su logo claramente visible en la cubierta del
-                            Seebook). </p><br>
+        <p>Se entregan precintadas (sellos rasgables de papel).</p>
 
-                        <div class="text-center">
-                            <img alt="" src="img/detalle_logo_editorial2.jpg" width="400" height="400"/>
-                        </div>
-                        <br><br>
+        <p>Especialmente recomendado para editoriales y autores independientes. </p>
+        <br>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Obtener unas estadísticas fiables sobre las descargas 
-						que se hayan producido (qué título, dónde
-                            y cuándo).</p><br>
+        <p><b>Precio: 1,- euro por unidad (tirada mínima de 500 ejemplares)</b></p>
+        <br><br><br>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> La conversión del ebook en un objeto físicamente atractivo, 
-						que entre por los ojos y
-                            susceptible de ser comprado por impulso. </p><br>
+        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"><b> Seebook sencillo:</b></p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> La adquisición de ebooks como regalo. (Se calcula que un 
-						50 % de las ventas en papel se
-                            producen únicamente para este fin). </p><br>
+        <p>Díptico de 10 x 14 cm (tamaño cerrado). </p>
 
-                        <div class="text-center">
-                            <img alt="" src="img/Seebook_regalo_fondotrans.png" width="450" height="450"/>
-                        </div>
-                        <br><br>
+        <p>Impresión de gran calidad en cartulina de 300 gr, con barniz mate. </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Nuevas estrategias promocionales: Seebooks sorpresa, Seebooks firmados por el autor,
-                            Seebooks prefranqueados para enviar por correo, etc. </p><br>
+        <p>No incluye sistema ExLib (marca de agua incrustada en el ebook).</p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Disminuir la piratería gracias al concepto de marca de agua personalizada Exlib, sin la
-                            hostilidad
-                            que genera el <a href="http://es.wikipedia.org/wiki/Gesti%C3%B3n_digital_de_derechos">DRM</a> en muchos lectores. </p><br>
+        <p>No incluye numeración de serie.</p>
 
-                        <p>Si quiere conocer en detalle las ventajas que Seebook le ofrece o si desea incorporar este
-                            concepto a su catálogo, <a href="mailto:info@digitaltangible.com">contacte</a> con nosotros.
-                            Podemos concertar una cita o bien enviarle un Seebook promocional con el que podrá descargar
-                            un ebook explicativo y, de paso, poner a prueba nuestro sistema. </p><br>
-                    </div>
-                </div>
+        <p>Especialmente recomendado para músicos, autores independientes y empresas. </p>
+        <br>
+
+        <p><b>Precio: 0,50 euros por unidad (tirada mínima de 1000 ejemplares).</b></p>
+
+        <div class="text-center">
+
+
+            <div class="text-center">
+
+            </div>
+            <br><br>
+            <br><br>
+
+ 
                 <!--End Article-->
 
             </div>
@@ -193,6 +163,7 @@
                             class="icon-google-plus icon-large"></i> Google+</a></li>
                 </ul>
             </div>
+
         </div>
     </div>
 </section>
@@ -220,11 +191,19 @@
                 </a>
             </div>
 
-          
+            <!--Service Section Three-->
+            <div class="span4 text-center service-box">
+                <a href="#">
+                    <i class="icon-bullhorn icon-4x blue"></i>
+
+                    <h2>Seebook en los medios</h2>
+                </a>
+            </div>
 
         </div>
     </div>
 </section>
+
 
 <!--Bottom Section-->
 <section id="bottom">
@@ -244,6 +223,7 @@
                            target="_blank"><i
                             class="icon-google-plus icon-large"></i></a></li>
                 </ul>
+
             </div>
 
             <!--Bottom Section Two-->
@@ -292,15 +272,6 @@
 <script src="js/main.js"></script>
 <script src="js/rotate.js"></script>
 <script src="js/twitter-feed.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-44067819-1', 'seebook.eu');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
