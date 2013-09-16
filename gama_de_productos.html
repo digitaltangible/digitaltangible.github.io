@@ -26,6 +26,18 @@
 </head>
 
 <body>
+<!-- facebook jssdk -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end facebook jssdk -->
+
 
 <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
     <div class="navbar-inner">
@@ -216,34 +228,38 @@
                            target="_blank"><i
                             class="icon-google-plus icon-large"></i></a></li>
                 </ul>
-
             </div>
 
             <!--Bottom Section Two-->
             <div class="span4">
                 <h2>Últimos tuits</h2>
 
-                <div class="row-fluid">
-                    <div class="span2">
-                        <i class="icon-twitter icon-2x blue pull-left" style="padding-top:12px;"></i>
-                    </div>
-
-                    <div class="span10">
-                        <div class="twitter-feed">
-                            <ul id="twitter_update_list" class="rotate"></ul>
-                        </div>
-                    </div>
-                </div>
+                <a class="twitter-timeline" href="https://twitter.com/seebook_"
+                   data-widget-id="379521322088288256">Tweets por @seebook_</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");
+                </script>
             </div>
 
             <!--Bottom Section Three-->
             <div class="span4">
                 <h2>Seebook en Facebook</h2>
-            </div>
 
+                <div class="fb-like-box" data-href="https://www.facebook.com/SeeBook.eu" data-width="350"
+                     data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true"
+                     data-show-border="false"></div>
+            </div>
         </div>
     </div>
 </section>
+
 
 <section id="footer">
     <div class="container">
@@ -263,8 +279,6 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/rotate.js"></script>
-<script src="js/twitter-feed.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

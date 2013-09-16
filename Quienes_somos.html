@@ -26,6 +26,18 @@
 </head>
 
 <body>
+<!-- facebook jssdk -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end facebook jssdk -->
+
 
 <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
     <div class="navbar-inner">
@@ -62,7 +74,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Editar con Seebook <b
                                 class="caret"></b></a>
                         <ul class="dropdown-menu">
-							<li><a href="gama_de_productos.html#00c">Gama de productos</a></li>
+                            <li><a href="gama_de_productos.html#00c">Gama de productos</a></li>
                             <li><a href="Editoriales.html#0c">Editoriales</a></li>
                             <li><a href="Autores.html#1c">Autores</a></li>
                             <li><a href="Musicos.html#2c">Músicos</a></li>
@@ -105,13 +117,17 @@
                         <p>Seebook es nuestra propuesta para establecer un puente entre la edición física tradicional y
                             el formato digital que:</p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Facilite a los actores de la industria del libro adaptarse a la era digital. </p>
+                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Facilite a los actores de la
+                            industria del libro adaptarse a la era digital. </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Dinamice el mercado cultural generando una tercera vía de difusión. </p>
+                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Dinamice el mercado cultural
+                            generando una tercera vía de difusión. </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Facilite la promoción de su obra a escritores y músicos. </p>
+                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Facilite la promoción de su obra a
+                            escritores y músicos. </p>
 
-                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Acerque el mundo digital a una generación acostumbrada a lo tangible. </p>
+                        <p><img alt="Seebook fish" src="img/fish_red.png" width="45"> Acerque el mundo digital a una
+                            generación acostumbrada a lo tangible. </p>
                         <br><br>
 
                         <h2 id="1d">El equipo</h2>
@@ -129,7 +145,8 @@
                                 comprender Alemania a través de sus letras</i>, <i>Lili
                                 Marleen. Canción de amor y muerte</i> y <i>La penúltima frontera. Fugitivos del nazismo
                                 en España</i>. También imparte conferencias, colabora con
-                            diversos medios de comunicación y mantiene un <a href="rosasalarose.es">blog personal</a>. </p>
+                            diversos medios de comunicación y mantiene un <a href="rosasalarose.es">blog personal</a>.
+                        </p>
 
                         <p>Rosa Sala Rose es la creadora de Seebook, fruto de su exhaustivo conocimiento del mundo del
                             libro, dado que como ensayista, intérprete y traductora ha tenido que tratar con todos los
@@ -157,7 +174,8 @@
                             CTO y arquitecto del sistema. Ingeniero y programador informático especializado en
                             desarrollo de software, programación y consultoría tecnológica. Ha trabajado desde 1994 en
                             diversos proyectos en Alemania, Estados Unidos, Canadá, Gran Bretaña, España y China,
-                            encargándose del desarrollo informático de diversas <i>startups</i> (entre ellas una plataforma de
+                            encargándose del desarrollo informático de diversas <i>startups</i> (entre ellas una
+                            plataforma de
                             venta por internet y sistemas de monitorización para aplicaciones móviles) así como de
                             <i>homebanking</i> y sistemas de telemedicina.</p>
 
@@ -175,8 +193,8 @@
                         <p>Barcelona (08037)</p>
 
                         <p>NIF: B 66088592</p>
-						
-						<p>info@digitaltangible.com</p>
+
+                        <p>info@digitaltangible.com</p>
 
 
                     </div>
@@ -226,7 +244,6 @@
                 </a>
             </div>
 
-  
 
         </div>
     </div>
@@ -251,31 +268,34 @@
                            target="_blank"><i
                             class="icon-google-plus icon-large"></i></a></li>
                 </ul>
-
             </div>
 
             <!--Bottom Section Two-->
             <div class="span4">
                 <h2>Últimos tuits</h2>
 
-                <div class="row-fluid">
-                    <div class="span2">
-                        <i class="icon-twitter icon-2x blue pull-left" style="padding-top:12px;"></i>
-                    </div>
-
-                    <div class="span10">
-                        <div class="twitter-feed">
-                            <ul id="twitter_update_list" class="rotate"></ul>
-                        </div>
-                    </div>
-                </div>
+                <a class="twitter-timeline" href="https://twitter.com/seebook_"
+                   data-widget-id="379521322088288256">Tweets por @seebook_</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");
+                </script>
             </div>
 
             <!--Bottom Section Three-->
             <div class="span4">
                 <h2>Seebook en Facebook</h2>
-            </div>
 
+                <div class="fb-like-box" data-href="https://www.facebook.com/SeeBook.eu" data-width="350"
+                     data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true"
+                     data-show-border="false"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -298,16 +318,21 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/rotate.js"></script>
-<script src="js/twitter-feed.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-44067819-1', 'seebook.eu');
-  ga('send', 'pageview');
+    ga('create', 'UA-44067819-1', 'seebook.eu');
+    ga('send', 'pageview');
 
 </script>
 </body>
