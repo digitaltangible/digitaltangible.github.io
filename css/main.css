@@ -6,7 +6,26 @@ body {
     background-attachment: fixed;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 130px;
 }
+@media screen and (max-width: 979px) {
+    body { padding-top: 0px; }
+}
+
+#token-form{
+    margin-bottom: 0;
+}
+
+#token-form button{
+    margin-top: 0;
+}
+@media screen and (max-width: 797px) {
+    #token-form button{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
 
 p {
     color: #C5C0C0;

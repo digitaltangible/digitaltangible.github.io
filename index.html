@@ -27,13 +27,21 @@
 
 <body>
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBP7HG"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MBP7HG');</script>
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBP7HG"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MBP7HG');
+</script>
 <!-- End Google Tag Manager -->
 
 <!-- facebook jssdk -->
@@ -45,7 +53,8 @@
     js.id = id;
     js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 <!-- end facebook jssdk -->
 
 
@@ -100,10 +109,31 @@
                         </ul>
                     </li>
                     <li><a href="Preguntas_frecuentes.html#0e">Preguntas frecuentes</a></li>
-                    <li><a href="index_en.html"><img src="img/ingles.png" alt="Seebook in English" width="32" height="32"></a></li>
+                    <li><a href="index_en.html"><img src="img/ingles.png" alt="Seebook in English" width="32"
+                                                     height="32"></a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- Form -->
+    <div class="well" style="padding:5px;">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 text-center">
+                    <form action="https://www.digitaltangible.com/mailform" method="GET" target="_blank" class="form-inline" id="token-form">
+                        <label>
+                            <span style="font-size:20px;color:#999999;">
+                                <em>
+                                    <strong>Introduce aquí el código alfanumérico de tu tarjeta:&nbsp;&nbsp;&nbsp;</strong>
+                                </em>
+                            </span>
+                        </label>
+                        <input type="text" name="token" class="input-xlarge" placeholder="Código" maxlength="100" autofocus="autofocus">
+                        <button class="btn btn-primary" type="submit"> OK </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>
