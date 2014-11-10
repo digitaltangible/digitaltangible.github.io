@@ -214,7 +214,7 @@ iframe {
     padding: 25px 7px;
     text-decoration: none;
     text-shadow: 0 1px 0 #111111;
-    letter-spacing: -0.5px;
+    /*letter-spacing: -0.5px;*/
 }
 
 .navbar .nav > li > a:hover {
