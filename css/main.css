@@ -944,8 +944,8 @@ ul.footer-links li a:hover {
 
 /* offset for anchors */
 :target {
-    margin-top: -100px;
-    padding-top: 100px;
+    margin-top: -150px;
+    padding-top: 150px;
 }
 
 /* floating images */
