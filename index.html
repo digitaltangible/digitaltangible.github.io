@@ -118,16 +118,19 @@
         <div class="container">
             <div class="row-fluid">
                 <div class="span12">
-                    <form action="https://www.digitaltangible.com/mailform" method="GET" target="_blank" class="form-inline pull-left" id="token-form">
+                    <form action="https://www.digitaltangible.com/mailform" method="GET" target="_blank"
+                          class="form-inline pull-left" id="token-form">
                         <label>
                             <span style="font-size:20px;color:#999999;">
                                 <em>
-                                    <strong>Introduce aquí el código alfanumérico de tu tarjeta:&nbsp;&nbsp;&nbsp;</strong>
+                                    <strong>Introduce aquí el código alfanumérico de tu
+                                        tarjeta:&nbsp;&nbsp;&nbsp;</strong>
                                 </em>
                             </span>
                         </label>
-                        <input type="text" name="token" class="input-xlarge" placeholder="Código" maxlength="100" autofocus="autofocus">
-                        <button class="btn btn-primary" type="submit"> OK </button>
+                        <input type="text" name="token" class="input-xlarge" placeholder="Código" maxlength="100"
+                               autofocus="autofocus">
+                        <button class="btn btn-primary" type="submit"> OK</button>
                     </form>
                     <div class="pull-right language-selection">
                         <a href="/en">English</a><a style="margin-left: 20px;" href="/ca">Català</a>
@@ -138,52 +141,16 @@
     </div>
 </div>
 
-
-<!-- Carousel -->
-<div id="header" class="carousel slide animated fadeIn">
-    <div class="carousel-inner">
-
-        <!--Item One-->
-        <div class="item one active">
-            <div class="container animated fadeInUp">
-                <div class="carousel-caption">
-                    <h1><i><img src="img/seebook_logo.png" alt="logo"></i></h1>
-
-                    <h2><i>El ebook que se puede tocar</i></h2>
-                    <a class="btn-main" href="que_es_Seebook.html"><i class="icon-chevron-right"></i> Ver más</a>
-                </div>
-            </div>
+<!--video-->
+<section id="video-banner">
+    <div class="row-fluid">
+        <div class="span8 offset2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AC1vYLJpYuY" allowfullscreen></iframe>
         </div>
-
-        <!--Item Two-->
-        <div class="item two">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1><i><img src="img/seebook_logo.png" alt="logo"></i></h1>
-
-                    <h2><i>El ebook que se puede tocar</i></h2>
-                    <a class="btn-main" href="que_es_Seebook.html"><i class="icon-chevron-right"></i> Ver más</a>
-                </div>
-            </div>
-        </div>
-
-        <!--Item Three-->
-        <div class="item three">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1><i><img src="img/seebook_logo.png" alt="logo"></i></h1>
-
-                    <h2><i>El ebook que se puede tocar</i></h2>
-                    <a class="btn-main" href="que_es_Seebook.html"><i class="icon-chevron-right"></i> Ver más</a>
-                </div>
-            </div>
-        </div>
-
     </div>
-    <a class="left carousel-control hidden-phone" href="#header" data-slide="prev"><i class="icon-angle-left"></i></a>
-    <a class="right carousel-control hidden-phone" href="#header" data-slide="next"><i class="icon-angle-right"></i></a>
-</div>
-<!-- /.carousel -->
+</section>
+
+
 <!--Large Well-->
 <section id="well">
     <div class="well well-large">
@@ -239,10 +206,15 @@
                 <h2>Síguenos en:</h2>
                 <!--Social Icons-->
                 <ul class="social-icons">
-                    <li><a class="twitter" href="https://twitter.com/seebook_" target="_blank"><img src="img/twitter-seebook.png" width="75" alt="twitter"/></a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/SeeBook.eu" target="_blank"><img src="img/facebook-seebook.png" width="75" alt="facebook"/></a></li>
-                    <li><a class="google" href="https://plus.google.com/+SeebookEu/posts" target="_blank"><img src="img/google-seebook.png" width="75" alt="google"/></a></li>
-                    <li><a class="youtube" href="http://www.youtube.com/subscription_center?gl=CA&amp;hl=en&amp;add_user=seebookeu" target="_blank"><img
+                    <li><a class="twitter" href="https://twitter.com/seebook_" target="_blank"><img
+                            src="img/twitter-seebook.png" width="75" alt="twitter"/></a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/SeeBook.eu" target="_blank"><img
+                            src="img/facebook-seebook.png" width="75" alt="facebook"/></a></li>
+                    <li><a class="google" href="https://plus.google.com/+SeebookEu/posts" target="_blank"><img
+                            src="img/google-seebook.png" width="75" alt="google"/></a></li>
+                    <li><a class="youtube"
+                           href="http://www.youtube.com/subscription_center?gl=CA&amp;hl=en&amp;add_user=seebookeu"
+                           target="_blank"><img
                             src="img/youtube-seebook.png" width="75" alt="google"/></a></li>
                 </ul>
             </div>
@@ -282,6 +254,7 @@
         <div class="row-fluid">
             <div class="span12 text-right">
                 <p>Esta actividad ha recibido una subvención del Ministerio de Educación, Cultura y Deporte.</p>
+
                 <p><img src="img/ministerio.png" alt="Ministerio de Educación, Cultura y Deporte"></p>
             </div>
         </div>
@@ -301,12 +274,17 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery.fitvids.js"></script>
 <script>
     !function ($) {
         $(function () {
             $('#header').carousel()
         })
     }(window.jQuery)
+
+    $(document).ready(function () {
+        $("#video-banner").fitVids();
+    });
 </script>
 </body>
 </html>
