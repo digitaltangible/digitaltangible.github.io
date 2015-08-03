@@ -2,10 +2,13 @@
    Global styles
    ========================================================================== */
 body {
+  background: #ffffff;
+    background-attachment: fixed;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 130px;
 }
+
 @media screen and (max-width: 979px) {
     body { padding-top: 0px; }
 }
