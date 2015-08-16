@@ -31,13 +31,18 @@
     <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBP7HG"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MBP7HG');
-
-
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MBP7HG');
 
 
 </script>
@@ -53,8 +58,6 @@
     js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-
-
 
 
 </script>
@@ -140,10 +143,14 @@
                             y proporciona todas las ventajas de lo tangible. </p><br>
                         <br>
 
-                        <div class="text-center">
-                            <iframe width="640" height="360" style="width:640px;height:360px;"
-                                    src="//www.youtube.com/embed/fvxPdi1RYfM?showinfo=0&rel=0" frameborder="0"
-                                    allowfullscreen></iframe>
+                        <div class="text-center" id="video">
+                            <div class="row-fluid">
+                                <div class="span8 offset2">
+                                    <iframe width="640" height="360"
+                                            src="//www.youtube.com/embed/fvxPdi1RYfM?showinfo=0&rel=0" frameborder="0"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
                         <br><br>
 
@@ -341,9 +348,6 @@
                 }(document, "script", "twitter-wjs");
 
 
-
-
-
                 </script>
             </div>
 
@@ -385,5 +389,11 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#video").fitVids();
+    });
+</script>
 </body>
 </html>
