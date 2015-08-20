@@ -81,7 +81,7 @@ h3 {
 }
 
 h3 span {
-    color: #999999;
+    color: #669999;
 }
 
 a {
@@ -254,7 +254,7 @@ iframe {
 }
 
 a.login {
-    color: #999999;
+    color: #669999;
 }
 
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -387,7 +387,7 @@ a.login {
 }
 
 .carousel-caption h2 i {
-    color: #999999;
+    color: #669999;
     font-weight: normal;
     font-style: italic;
     padding: 7px 15px;
@@ -710,7 +710,7 @@ ul.social-icons li a:hover {
 }
 
 #footer p {
-    color: #999999;
+    color: #669999;
     font-size: 12px;
 }
 
