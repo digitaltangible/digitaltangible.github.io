@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ExLib for Seebook: artistic ex libris for digital books</title>
+    <meta name="description"
+          content="Now the Ex Libris of the past has found a place in digital books: get a personalized ebook collection value.">
+
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBP7HG"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MBP7HG');
+
+
+
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- facebook jssdk -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+
+</script>
+<!-- end facebook jssdk -->
+
+
+<div class="navbar navbar-fixed-top animated fadeInDownBig">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/"><img src="../img/seebook_logo.png" alt="Title" width="150"></a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="/en/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">What is Seebook? <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="What_is_Seebook.html#0a">An ebook you can touch</a></li>
+                            <li><a href="What_is_Seebook.html#1a">How does it work?</a></li>
+                            <li><a href="What_is_Seebook.html#2a">Why "Seebook"?</a></li>
+
+                            <li><a href="What_is_Seebook.html#1d">The Team</a></li>
+                            <li><a href="What_is_Seebook.html#2d">The Company</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.digitaltangible.com/catalog" target="_blank">Catalog</a></li>
+                    <li><a href="http://seebook-shop.eu/en" target="_blank">Online Store</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Publish with Seebook <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Product_range.html#00c">Product Range</a></li>
+                            <li><a href="Publishers.html#0c">Publishers</a></li>
+                            <li><a href="Authors.html#1c">Authors</a></li>
+                            <li><a href="Musicians.html#2c">Musicians</a></li>
+                            <li><a href="Companies.html#3c">Companies</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exlib<b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="The_Exlib_concept.html#0b">What is an ExLib?</a></li>
+                            <li><a href="The_Exlib_concept.html#1b">Do you want to create an Exlib?</a></li>
+                            <li><a href="The_Exlib_concept.html#2b">Exlibs Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://seebookblog.wordpress.com" target="_blank">Blog</a></li>
+                    <li><a href="FAQ.html#0e">FAQ</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+
+<!--Content Section One-->
+<section id="blog">
+    <div class="container">
+
+        <div class="row-fluid">
+
+            <!--Blog Article Container-->
+            <div class="span9 article-container">
+                <!--Article One -->
+                <div class="row">
+                    <div class="col-sm-8 well">
+                        <h2 id="0b">What is an Exlib?</h2>
+                        <br>
+
+                        <p>The ExLib is our technological update of a classic element: the
+                            <i>ex
+                                libris</i>. Formerly, as books were valuable and expensive commodities, every good
+                            reader had his
+                            particular <i>ex
+                                libris</i>
+                            designed and printed with his name. He used to paste it in the first page of a book as a
+                            sign that it was
+                            his.
+                            That way he could lend
+                            it without the new reader forgetting who to give it back to.</p><br>
+
+                        <div class="text-center">
+                            <img src="../img/exlibris.png" alt="" width="350">
+                        </div>
+                        <br>
+
+
+                        <p>Our ExLib is the picture you will see inside our Seebooks. It carries the serial number of
+                            the card and the
+                            codes
+                            you will need to download the content. </p>
+
+
+                        <div class="text-center">
+                            <img src="../img/cara-interior-fdo-trans.png" alt="Seebook with its ExLib">
+                        </div>
+
+
+                        <p>We wanted to incorporate the original <i>ex libris </i>philosophy in our Seebooks, but
+                            adapting them to today´s world:
+                            our ExLib will
+                            also
+                            personalize your ebook, but with your “digital identity”, i.e. with your email address.
+                        </p><br>
+
+
+                        <div class="text-center">
+                            <img src="../img/exlib-en-ebook.jpg" alt="ExLib in an ebook downloaded with Seebook"
+                                 height="350">
+                        </div>
+                        <br>
+
+                        <p> The ExLibs are distributed randomly among our Seebooks. Till you open it, you will not know
+                            which one is
+                            inside your card. And
+                            as we want you to remember us, there will always be a fish in some part of the picture: in
+                            honour to "our"
+                            fish <img alt="Seebook fish" src="../img/fish_red.png" width="45">.</p>
+
+
+                        <p> We order our Exlibs from designers and artists. We will announce the new drawings and
+                            promote
+                            the works of our chosen artists in our social networks. From time to time we will carry out
+                            contests in fine
+                            arts
+                            and designing schools to
+                            award and post the winning picture in some of our Seebooks.
+                        </p><br>
+                    </div>
+                </div>
+
+
+                <!--Article Two -->
+                <div class="row">
+                    <div class="col-sm-8 well">
+
+                        <h2 id="1b">Do you want to create an ExLib?</h2>
+                        <br>
+
+                        <p> Do you teach at a fine art school and would like to organize a contest among your students?
+                            Are you an artist or a designer with certain track record and you would like to form part of
+                            our project
+                            designing
+                            an ExLib for us? If that´s the case, <a href="mailto:info@digitaltangible.com">contact
+                                us!</a></p>
+
+                        <p> If we like it, we will add it to our gallery of ExLibs and promote it throughout our social
+                            networks.
+                        </p>
+
+                        <p>Remember, there is only one condition: the drawing must have a fish!</p>
+                        <br>
+                    </div>
+                </div>
+                <!--Article Three -->
+                <div class="row">
+                    <div class="col-sm-8 well">
+
+
+                        <h2 id="2b">ExLibs Gallery</h2>
+                        <br>
+
+                        <p>These are some of the ExLib´s you can find on our Seebooks:
+                        </p>
+
+                        <br>
+
+                        <div class="row-fluid">
+                            <div class="exlib span4" data-original-title="First ExLib for Seebook" data-content="This ExLib, casually drawn on a napkin
+							by our founder and CEO Rosa Sala Rose, is the very first one in our series. It is not artistic nor pretty, but it is ours, it is 
+							the first and... it has a fish!"
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/ExLibdefpng.png" alt="">
+
+                                <p>Rosa Sala Rose</p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Antonia McGuane"
+                                 data-content="The Irish Artist Antonia
+							McGuane worked for a month on the roof of a building in Barcelona, whose spectacular view inspired her 
+							the gouaches that have given rise to this series of four Exlibs. We are very proud to inaugurate our 'Artists ExLibs' with them! 
+							<br>Antonia has lived and worked in Nova Scotia (Canada) and Dublin (Ireland). Since 2010, Antonia has been working and exhibiting 
+							in Spain as an artist in residence at Fundacion Valparaiso, Mojacar, Jiwar Creation & Society, Barcelona and Can Serrat Centro 
+							de Actividades Artisticas, El Bruc. Some of her artwork is now part of the Can Serrat collection, 
+							of the Ajuntament de Collbató, of the Canada Council Art Bank and of the Acadia University Art Gallery, Nova Scotia. 
+							<br> Antonia was educated at the Vrije Academy of The Hague. She is the recipient of arts grants that support her work, in Canada and Ireland. 
+							<br> You can see a sample of her artwork in her blog antoniamcguane.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/McGuane2.png" alt="">
+
+
+                                <p>Antonia McGuane <a href="http://antoniamcguane.com/" target="_blank">(blog)</a></p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Antonia McGuane"
+                                 data-content="The Irish Artist Antonia
+							McGuane worked for a month on the roof of a building in Barcelona, whose spectacular view inspired her 
+							the gouaches that have given rise to this series of four Exlibs. We are very proud to inaugurate our 'Artists ExLibs' with them! 
+							<br>Antonia has lived and worked in Nova Scotia (Canada) and Dublin (Ireland). Since 2010, Antonia has been working and exhibiting 
+							in Spain as an artist in residence at Fundacion Valparaiso, Mojacar, Jiwar Creation & Society, Barcelona and Can Serrat Centro 
+							de Actividades Artisticas, El Bruc. Some of her artwork is now part of the Can Serrat collection, 
+							of the Ajuntament de Collbató, of the Canada Council Art Bank and of the Acadia University Art Gallery, Nova Scotia. 
+							<br> Antonia was educated at the Vrije Academy of The Hague. She is the recipient of arts grants that support her work, in Canada and Ireland. 
+							<br> You can see a sample of her artwork in her blog antoniamcguane.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/McGuane3.png" alt="">
+
+                                <p>Antonia McGuane <a href="http://antoniamcguane.com/" target="_blank">(blog)</a></p>
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <div class="row-fluid">
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Antonia McGuane"
+                                 data-content="The Irish Artist Antonia
+							McGuane worked for a month on the roof of a building in Barcelona, whose spectacular view inspired her 
+							the gouaches that have given rise to this series of four Exlibs. We are very proud to inaugurate our 'Artists ExLibs' with them! 
+							<br>Antonia has lived and worked in Nova Scotia (Canada) and Dublin (Ireland). Since 2010, Antonia has been working and exhibiting 
+							in Spain as an artist in residence at Fundacion Valparaiso, Mojacar, Jiwar Creation & Society, Barcelona and Can Serrat Centro 
+							de Actividades Artisticas, El Bruc. Some of her artwork is now part of the Can Serrat collection, 
+							of the Ajuntament de Collbató, of the Canada Council Art Bank and of the Acadia University Art Gallery, Nova Scotia. 
+							<br> Antonia was educated at the Vrije Academy of The Hague. She is the recipient of arts grants that support her work, in Canada and Ireland. 
+							<br> You can see a sample of her artwork in her blog antoniamcguane.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/McGuane4.png" alt="">
+
+                                <p>Antonia McGuane <a href="http://antoniamcguane.com/" target="_blank">(blog)</a></p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Antonia McGuane"
+                                 data-content="The Irish Artist Antonia
+							McGuane worked for a month on the roof of a building in Barcelona, whose spectacular view inspired her 
+							the gouaches that have given rise to this series of four Exlibs. We are very proud to inaugurate our 'Artists ExLibs' with them! 
+							<br>Antonia has lived and worked in Nova Scotia (Canada) and Dublin (Ireland). Since 2010, Antonia has been working and exhibiting 
+							in Spain as an artist in residence at Fundacion Valparaiso, Mojacar, Jiwar Creation & Society, Barcelona and Can Serrat Centro 
+							de Actividades Artisticas, El Bruc. Some of her artwork is now part of the Can Serrat collection, 
+							of the Ajuntament de Collbató, of the Canada Council Art Bank and of the Acadia University Art Gallery, Nova Scotia. 
+							<br> Antonia was educated at the Vrije Academy of The Hague. She is the recipient of arts grants that support her work, in Canada and Ireland. 
+							<br> You can see a sample of her artwork in her blog antoniamcguane.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/McGuane1.png" alt="">
+
+                                <p>Antonia McGuane <a href="http://antoniamcguane.com/" target="_blank">(blog)</a></p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Johney Panamà"
+                                 data-content="Johney Panamà came to life in Barcelona, out of the fantasy of love. That's already many years ago,
+                                but he still feels like being in the process of birth. During all this time he has not been very prolific, but this
+                                shouldn't surprise us, since he considers himself a militant slacker. We can find him cooperating with Fernando Megías
+                                  in several projects. Also signing with his own name the drawings that an anonymous artist happily gives him sometimes,
+                                  although this is not happening so often lately... You can check out his work at a blog that he opened once by mistake:
+                                jpanama-ilustrador.blogspot.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/JosepFeliu1.png" alt="">
+
+                                <p>Johney Panamà <a href="http://jpanama-ilustrador.blogspot.com.es/" target="_blank">(blog)</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="row-fluid">
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Johney Panamà"
+                                 data-content="Johney Panamà came to life in Barcelona, out of the fantasy of love. That's already many years ago,
+                                  but he still feels like being in the process of birth. During all this time he has not been very prolific, but this
+                                  shouldn't surprise us, since he considers himself a militant slacker. We can find him cooperating with Fernando Megías
+                                  in several projects. Also signing with his own name the drawings that an anonymous artist happily gives him sometimes,
+                                  although this is not happening so often lately... You can check out his work at a blog that he opened once by mistake:
+                                  jpanama-ilustrador.blogspot.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/JosepFeliu2.png" alt="">
+
+                                <p>Johney Panamà <a href="http://jpanama-ilustrador.blogspot.com.es/"
+                                                    target="_blank">(blog)</a></p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Johney Panamà"
+                                 data-content="Johney Panamà came to life in Barcelona, out of the fantasy of love. That's already many years ago,
+                                  but he still feels like being in the process of birth. During all this time he has not been very prolific, but this
+                                  shouldn't surprise us, since he considers himself a militant slacker. We can find him cooperating with Fernando Megías
+                                  in several projects. Also signing with his own name the drawings that an anonymous artist happily gives him sometimes,
+                                  although this is not happening so often lately... You can check out his work at a blog that he opened once by mistake:
+                                  jpanama-ilustrador.blogspot.com."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/JosepFeliu3.png" alt="">
+
+                                <p>Johney Panamà <a href="http://jpanama-ilustrador.blogspot.com.es/"
+                                                    target="_blank">(blog)</a></p>
+                            </div>
+
+
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Fernando Megías"
+                                 data-content="I was born, by a twist of fate, in Barcelona. I live in Palma de Mallorca since a considerable part of my limited eternity.
+                                 I have spent much of that time in conceptual art, painting, drawing, visual poetry, video, installations, performances and countless other tasks.
+                                 For several years I worked with a guy called Johney Panamà creating, preparing and editing some stuff vaguely similar to books."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/FernandoMegias1.png" alt="">
+
+                                <p>Fernando Megías <a
+                                        href="http://www.facebook.com/people/Fernando-Megias/100002443429022"
+                                        target="_blank">(facebook)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="row-fluid">
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Fernando Megías"
+                                 data-content="I was born, by a twist of fate, in Barcelona. I live in Palma de Mallorca since a considerable part of my limited eternity.
+                                 I have spent much of that time in conceptual art, painting, drawing, visual poetry, video, installations, performances and countless other tasks.
+                                 For several years I worked with a guy called Johney Panamà creating, preparing and editing some stuff vaguely similar to books."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/FernandoMegias2.png" alt="">
+
+                                <p>Fernando Megías <a
+                                        href="http://www.facebook.com/people/Fernando-Megias/100002443429022"
+                                        target="_blank">(facebook)</a>
+                                </p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Fernando Megías"
+                                 data-content="I was born, by a twist of fate, in Barcelona. I live in Palma de Mallorca since a considerable part of my limited eternity.
+                                 I have spent much of that time in conceptual art, painting, drawing, visual poetry, video, installations, performances and countless other tasks.
+                                 For several years I worked with a guy called Johney Panamà creating, preparing and editing some stuff vaguely similar to books."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/FernandoMegias3.png" alt="">
+
+                                <p>Fernando Megías <a
+                                        href="http://www.facebook.com/people/Fernando-Megias/100002443429022"
+                                        target="_blank">(facebook)</a>
+                                </p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by Tuky Waingan"
+                                 data-content="My name is Tuky Waingan. I live in the south of the world, in Buenos Aires, Argentina.
+                                Writing, drawing and taking photos are the ways I found to express myself and to live the art. A verse in a poem can generate in me the need to draw on paper with very fine markers;
+                                then I take a picture of the finished work and I link it to a text. That's my creative process.
+                                To fully understand one of my artworks, one needs to know the feeling that generated it; to know the whole journey, to be able to value the small parts in order to give a new meaning to the whole.
+                                Art requires the commitment of getting closer in order to feel; because right there, on the sum of the smallest details, is where beauty lies."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/TukyWaingan.png" alt="">
+
+                                <p>Tuky Waingan <a href="http://www.tukywaingan.com.ar" target="_blank">(web)</a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="row-fluid">
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by José Emilio Amo"
+                                 data-content="I was born in Valladolid more than 4 decades ago. Although I am Economist, in the last years I have been working on graphic design, making hundreds of logos, designs, posters and murals...
+                                 I've been through a lot of different jobs  (and hopefully I will go through many more, I do not like doing the same thing for more than 3 years).
+                                 Since I'm basically  an imaginative person, I tend to reflect that on my work ... either in administration or teaching math.
+                                 I spent many years in an academy learning almost every painting technique, from oil to watercolor, but lately I tend to give them a digital last touch.
+                                 I prefer painting to drawing, but this past year I spend hours and hours drawing from life to improve myself. If you want to see some of those drawing, visit my page in facebook."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/jose-emilio-amo.png" alt="">
+
+                                <p>José Emilio Amo <a href="https://www.facebook.com/joseemilio.amo"
+                                                      target="_blank">(facebook)</a>
+                                </p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by José Portilla"
+                                 data-content="José Portilla was born in Villaverde de Guareña, Salamanca.
+                                He studied at the School of Fine Arts of San Eloy, at the School of Arts and Crafts of Salamanca and at the Cercle Artístic de Sant Lluc Barcelona.
+                                He lives and works in communion with nature. His mixed technique procedure is often enriched with often organic and vegetable additives."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/JosePortilla1.png" alt="">
+
+                                <p>José Portilla <a href="http://www.portillaj.es" target="_blank">(web)</a>
+                                </p>
+                            </div>
+                            <div class="exlib span4" data-html="true" data-original-title="ExLib by José Portilla"
+                                 data-content="José Portilla was born in Villaverde de Guareña, Salamanca.
+                                He studied at the School of Fine Arts of San Eloy, at the School of Arts and Crafts of Salamanca and at the Cercle Artístic de Sant Lluc Barcelona.
+                                He lives and works in communion with nature. His mixed technique procedure is often enriched with often organic and vegetable additives."
+                                 data-trigger="hover">
+                                <img src="../img/exlibs/JosePortilla2.png" alt="">
+
+                                <p>José Portilla <a href="http://www.portillaj.es" target="_blank">(web)</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--End Blog Article Container-->
+
+            </div>
+            <!--Right Side Bar-->
+            <div class="span3 sidebar-container">
+                <div class="pull-right language-selection">
+                    <a href="/El_concepto_Exlib.html#0b"><strong>Español</strong></a><a style="margin-left: 20px;"
+                                                                                        href="/ca/el-concepte-exlib.html#0b"><strong>Català</strong></a>
+                </div>
+                <div><a class="blog"
+                        href="http://seebookblog.wordpress.com/feed/"
+                        target="_blank"><img src="../img/blog.png" width="75" alt="Feed del blog de Seebook"/></a></div>
+                <div><a class="twitter" href="https://twitter.com/seebookUK" target="_blank"><img
+                        src="../img/twitter-web.png" width="75" alt="twitter"/></a></div>
+                <div><a class="facebook" href="https://www.facebook.com/SeeBook.eu" target="_blank"><img
+                        src="../img/facebook-web.png" width="75" alt="facebook Seebook"/></a></div>
+                <div><a class="google" href="https://plus.google.com/+SeebookEu/posts" target="_blank"><img
+                        src="../img/google+-web.png" width="75" alt="Google"/></a></div>
+                <div><a class="youtube"
+                        href="http://www.youtube.com/subscription_center?gl=CA&amp;hl=en&amp;add_user=seebookeu"
+                        target="_blank"><img src="../img/youtube-web.png" width="75" alt="Youtube Seebook"/></a></div>
+                <br>
+
+                <div class="pull-left language-selection">
+                    <a style="margin-left: 20px;"
+                       href="http://seebook.libsyn.com/"><h3>Our podcast:</h3></a>
+                </div>
+                <br><br>
+
+                <div><a class="podcast"
+                        href="http://seebook.libsyn.com/"
+                        target="_blank"><img src="../img/podcast-seebook.jpg"
+                                             alt="Descubre escuchando lo que vas a leer con Seebook"/></a></div>
+                <br> <br>
+
+                <div><a class="itunes"
+                        href="https://geo.itunes.apple.com/us/podcast/descubre-escuchando-lo-que/id1020941397?mt=2"
+                        target="_blank"><img src="../img/itunes.jpg" width="200"
+                                             alt="Seebook's podcast in itunes"/></a></div>
+                <br> <br>
+
+                <div><a class="stitcher"
+                        href="http://www.stitcher.com/podcast/seebook/descubre-escuchando-lo-que-vas-a-leer"
+                        target="_blank"><img src="../img/stitcher-crop.jpg" width="200"
+                                             alt="Seebook's podcast in Stitcher"/></a></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Services Section-->
+<section id="services">
+    <div class="container">
+        <div class="row-fluid">
+
+            <!--Service Section One-->
+            <div class="span12 text-center service-box">
+                <a href="mailto:info@digitaltangible.com">
+                    <i class="icon-envelope-alt icon-4x blue"></i>
+
+                    <h2>Contact us</h2>
+                </a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<!--Bottom Section-->
+<section id="bottom">
+    <div class="container">
+        <div class="row-fluid">
+
+            <!--Bottom Section One-->
+            <div class="span4">
+                <h2>Follow us on:</h2>
+                <!--Social Icons-->
+                <ul class="social-icons">
+                    <li><a class="twitter" href="https://twitter.com/seebookUK" target="_blank"><img
+                            src="../img/twitter-web.png" width="75" alt="twitter"/></a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/SeeBook.eu" target="_blank"><img
+                            src="../img/facebook-web.png" width="75" alt="facebook"/></a></li>
+                    <li><a class="google" href="https://plus.google.com/+SeebookEu/posts" target="_blank"><img
+                            src="../img/google+-web.png" width="75" alt="google"/></a></li>
+                    <li><a class="youtube"
+                           href="http://www.youtube.com/subscription_center?gl=CA&amp;hl=en&amp;add_user=seebookeu"
+                           target="_blank"><img
+                            src="../img/youtube-web.png" width="75" alt="google"/></a></li>
+                </ul>
+            </div>
+
+            <!--Bottom Section Two-->
+            <div class="span4">
+                <h2>Last Tweets</h2>
+
+                <a class="twitter-timeline" href="https://twitter.com/seebookUK"
+                   data-widget-id="379521322088288256">Tweets by @seebook_</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");
+
+
+
+
+                </script>
+            </div>
+
+            <!--Bottom Section Three-->
+            <div class="span4">
+                <h2>Seebook on Facebook</h2>
+
+                <div class="fb-like-box" data-href="https://www.facebook.com/SeeBook.eu" data-width="350"
+                     data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true"
+                     data-show-border="false"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4 text-left copyright">
+                <p>&copy; Digital Tangible S.L. All rights reserved.<br/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
