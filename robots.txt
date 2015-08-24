@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /datos-tecnicos-seebook-estandar.pdf
+Disallow: /datos-tecnicos-seebook-indie.pdf
