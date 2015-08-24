@@ -49,13 +49,19 @@ p {
 }
 
 .lead {
-    color: #f84b64;
+    color: #ff6666;
 }
 
-h2, h3 {
+h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
-
+h1 {
+    color: #dd4955;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 34px;
+    padding-bottom: 15px;
+}
 h2 {
     color: #dd4955;
     font-weight: 300;
@@ -85,7 +91,7 @@ h3 span {
 }
 
 a {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -97,7 +103,7 @@ a:hover {
 }
 
 .btn-main {
-    background: #f84b64 repeat scroll 0 0;
+    background: #ff6666 repeat scroll 0 0;
     font-family: 'Lato', sans-serif;
     border-bottom: 5px solid #69ACAF;
     border-radius: 2px;
@@ -119,7 +125,7 @@ a:hover {
 }
 
 .btn-main-small {
-    background: #f84b64 repeat scroll 0 0;
+    background: #ff6666 repeat scroll 0 0;
     font-family: 'Lato', sans-serif;
     border-bottom: 5px solid #69ACAF;
     border-radius: 2px;
@@ -145,12 +151,12 @@ a:hover {
 }
 
 ::selection {
-    background: #f84b64; /* Safari */
+    background: #ff6666; /* Safari */
     color: #FFFFFF;
 }
 
 ::-moz-selection {
-    background: #f84b64; /* Firefox */
+    background: #ff6666; /* Firefox */
     color: #FFFFFF;
 }
 
@@ -188,7 +194,7 @@ iframe {
 }
 
 .corporate-red {
-    color: #F84B64;
+    color: #ff6666;
 }
 
 /* ==========================================================================
@@ -220,7 +226,7 @@ iframe {
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav .active > a:focus {
     background-color: transparent;
-    color: #f84b64;
+    color: #ff6666;
 }
 
 .brand {
@@ -236,17 +242,17 @@ iframe {
 }
 
 .navbar .nav > li > a:hover {
-    color: #f84b64;
+    color: #ff6666;
 }
 
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-    border-bottom-color: #f84b64;
-    border-top-color: #f84b64;
+    border-bottom-color: #ff6666;
+    border-top-color: #ff6666;
 }
 
 .navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown > a:focus .caret {
-    border-bottom-color: #f84b64;
-    border-top-color: #f84b64;
+    border-bottom-color: #ff6666;
+    border-top-color: #ff6666;
 }
 
 .navbar-fixed-top {
@@ -300,7 +306,7 @@ a.login {
     background-image: none;
     background-image: -webkit-linear-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent));
     background-repeat: no-repeat;
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -315,7 +321,7 @@ a.login {
 }
 
 .menu-button {
-    background: #f84b64 repeat scroll 0 0;
+    background: #ff6666 repeat scroll 0 0;
     font-family: 'Lato', sans-serif;
     border-bottom: none;
     border-radius: 2px;
@@ -420,13 +426,13 @@ a.login {
 }
 
 .service-box:hover {
-    border-bottom: 7px solid #f84b64;
+    border-bottom: 7px solid #ff6666;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
 }
 
 #message {
-    background: #f84b64;
+    background: #ff6666;
     padding-bottom: 120px;
     padding-top: 120px;
 }
@@ -497,7 +503,7 @@ ul.team-social-icons li {
 }
 
 ul.team-social-icons li a {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -520,7 +526,7 @@ ul.team-social-icons li a:hover {
 }
 
 .blog-links a {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -552,7 +558,7 @@ ul.team-social-icons li a:hover {
 }
 
 .news-date h2 {
-    color: #f84b64;
+    color: #FF6666;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     font-weight: 300;
@@ -577,18 +583,18 @@ ul.team-social-icons li a:hover {
 /*------Tables--------------------*/
 
 .table thead {
-    background: #f84b64;
+    background: #ff6666;
     color: #fff;
 }
 
 /*------Tabs--------------------*/
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
-    border-color: #f84b64 #f84b64 #DDDDDD;
+    border-color: #ff6666 #ff6666 #DDDDDD;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #f84b64;
+    background-color: #ff6666;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -626,7 +632,7 @@ ul.team-social-icons li a:hover {
 }
 
 #bottom h2 {
-    color: #f84b64;
+    color: #ff6666;
 }
 
 #bottom p {
@@ -634,7 +640,7 @@ ul.team-social-icons li a:hover {
 }
 
 a.more {
-    color: #f84b64;
+    color: #ff6666;
     font-weight: bold;
 }
 
@@ -660,7 +666,7 @@ ul#twitter_update_list li {
 }
 
 .twitter-feed span a {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 
 }
@@ -699,7 +705,7 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -737,7 +743,7 @@ ul.footer-links li a {
 }
 
 ul.footer-links li a:hover {
-    color: #f84b64;
+    color: #ff6666;
     text-decoration: none;
 }
 
@@ -824,7 +830,7 @@ ul.footer-links li a:hover {
     }
 
     .news-date h2 {
-        color: #f84b64;
+        color: #ff6666;
         font-family: 'Lato', sans-serif;
         font-size: 20px;
         font-weight: 300;
