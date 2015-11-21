@@ -32,7 +32,7 @@
   <loc>http://www.seebook.eu/que-es-seebook.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
   <xhtml:link
         rel="alternate"
         hreflang="en"
@@ -53,7 +53,7 @@
   <loc>http://www.seebook.eu/gama-de-productos.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -154,7 +154,7 @@
   <loc>http://www.seebook.eu/El-concepto-Exlib.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -175,7 +175,7 @@
   <loc>http://www.seebook.eu/Preguntas_frecuentes.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -196,7 +196,7 @@
   <loc>http://www.seebook.eu/en/</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -217,7 +217,7 @@
   <loc>http://www.seebook.eu/ca/</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -238,7 +238,7 @@
   <loc>http://www.seebook.eu/en/Musicians.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -259,7 +259,7 @@
   <loc>http://www.seebook.eu/ca/musics.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -280,7 +280,7 @@
   <loc>http://www.seebook.eu/en/product-range.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -301,7 +301,7 @@
   <loc>http://www.seebook.eu/ca/gamma-de-productes.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -322,7 +322,7 @@
   <loc>http://www.seebook.eu/en/Publishers.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -343,7 +343,7 @@
   <loc>http://www.seebook.eu/ca/editorials.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -364,7 +364,7 @@
   <loc>http://www.seebook.eu/en/Authors.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -385,7 +385,7 @@
   <loc>http://www.seebook.eu/ca/autors.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -406,7 +406,7 @@
   <loc>http://www.seebook.eu/en/what-is-seebook.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -427,7 +427,7 @@
   <loc>http://www.seebook.eu/ca/que-es-seebook.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -448,7 +448,7 @@
   <loc>http://www.seebook.eu/en/the-exlib-concept.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -469,7 +469,7 @@
   <loc>http://www.seebook.eu/ca/el-concepte-exlib.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -490,7 +490,7 @@
   <loc>http://www.seebook.eu/en/FAQ.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -511,7 +511,7 @@
   <loc>http://www.seebook.eu/ca/preguntes-frequents.html</loc>
   <lastmod>2015-08-21T17:34:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.50</priority>
   <xhtml:link
           rel="alternate"
           hreflang="en"
@@ -532,7 +532,7 @@
     <loc>http://www.seebook.eu/ca/llibreters.html</loc>
     <lastmod>2015-08-21T17:34:55+00:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.50</priority>
 
     <xhtml:link
             rel="alternate"
