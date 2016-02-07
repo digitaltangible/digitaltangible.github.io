@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 130px;
+    padding-top: 170px;
 }
 
 @media screen and (max-width: 979px) {
@@ -1002,6 +1002,5 @@ p img.pull-left {
 
 .language-selection{
     font-size: 1.2em;
-    margin-top: 5px;
 }
 
