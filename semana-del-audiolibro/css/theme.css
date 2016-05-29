@@ -1,8 +1,8 @@
-
 body {
-font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
 }
+
 
 ul.stats-tabs li {
 list-style:none;
@@ -566,5 +566,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23ab64', end
   color: inherit;
 }
 
-
+@media (max-width: 979px){
+    ul.nav, .nav>li>a {
+        color: black !important;
+        background-color: white;
+    }
+}
 

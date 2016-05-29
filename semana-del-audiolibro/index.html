@@ -172,9 +172,9 @@
                         <div class="fancycaption fancycaption-fade">
                             <a
                                     href="librerias-participantes.html" target="_blank"><img class="fade"
-                                                                                                      width="150px"
-                                                                                                      src="images/librerias-participantes.jpg"
-                                                                                                      alt="Librerías participantes en la 1ª Semana del Audiolibro"></a>
+                                                                                             width="150px"
+                                                                                             src="images/librerias-participantes.jpg"
+                                                                                             alt="Librerías participantes en la 1ª Semana del Audiolibro"></a>
                         </div>
                     </li>
                 </ul>
@@ -289,7 +289,15 @@
                 <a class="twitter-timeline" href="https://twitter.com/search?q=%23AL2016%20lang%3Aes"
                    data-widget-id="735860030050820097">Tweets sobre #AL2016</a>
                 <script>
-                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    !function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
 
 
                 </script>
@@ -337,45 +345,22 @@
 <script src="js/bootstrap/fancyCaption.js"></script>
 
 <script>
-     $(document).ready(function() {
-
-  $('.shuffle').randomImage({path: 'images/'});
-  $('a:first').click(function() {
-    location.reload();
-    return false;
-  });
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
+    $(document).ready(function () {
+        $('.shuffle').randomImage({path: 'images/'});
+    });
 
 
 </script>
 
 <script type="text/javascript">
-$(document).ready(function(){
-  $(".fancycaption-fade").fancyCaption({slideTopBar:false, slideBottomBar:false, slideLeftBar:false, slideRightBar:false });
-});
-
-
-
-
-
-
-
-
-
-
+    $(document).ready(function () {
+        $(".fancycaption-fade").fancyCaption({
+            slideTopBar: false,
+            slideBottomBar: false,
+            slideLeftBar: false,
+            slideRightBar: false
+        });
+    });
 
 
 </script>
