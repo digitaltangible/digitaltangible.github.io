@@ -22,7 +22,7 @@
     <loc>http://www.seebook.eu/gama-de-productos.html</loc>
     <lastmod>2016-05-26T10:36:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/preguntas-frecuentes.html</loc>
@@ -58,7 +58,7 @@
     <loc>http://www.seebook.eu/indie/</loc>
     <lastmod>2016-05-26T10:36:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.30</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/Editoriales.html</loc>
@@ -82,7 +82,7 @@
     <loc>http://www.seebook.eu/musica/</loc>
     <lastmod>2016-05-26T10:36:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.30</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/drm-social/</loc>
@@ -94,7 +94,7 @@
     <loc>http://www.seebook.eu/contactar.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.60</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/blog/ventajas%20seebook/2015/02/20/un-ebook-con-caracteristicas-de-un-dvd-nuestros-materiales-extra</loc>
@@ -106,7 +106,7 @@
     <loc>http://www.seebook.eu/Autores.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.1</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/blog/ventajas%20seebook/2015/06/29/que-puede-hacer-un-escritor-con-un-seebook-indie</loc>
@@ -124,11 +124,17 @@
     <loc>http://www.seebook.eu/docs/datos-tecnicos-seebook-indie.pdf</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.1</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/blog/funcionamiento-audiolibros-tarjeta-seebook.html</loc>
     <lastmod>2016-05-22T17:09:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>http://www.seebook.eu/blog-cat/funcionament-audiollibres-targeta-seebook.html</loc>
+    <lastmod>2016-06-24T17:09:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.64</priority>
   </url>
@@ -214,13 +220,13 @@
     <loc>http://www.seebook.eu/de/ueber-seebook.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/audioguide-de/</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/de/kontakt.html</loc>
@@ -232,7 +238,7 @@
     <loc>http://www.seebook.eu/ca/que-es-seebook.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/ca/gamma-de-productes.html</loc>
@@ -256,7 +262,7 @@
     <loc>http://www.seebook.eu/ca/autors.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/ca/editorials.html</loc>
@@ -268,7 +274,7 @@
     <loc>http://www.seebook.eu/audioguia-cat/</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/ca/llibreters.html</loc>
@@ -277,10 +283,16 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>http://www.seebook.eu/audiollibre.html</loc>
+    <lastmod>2016-06-24T10:36:13+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>http://www.seebook.eu/ca/musics.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/drm-social-cat/</loc>
@@ -346,7 +358,7 @@
     <loc>http://www.seebook.eu/blog/page/3/</loc>
     <lastmod>2016-05-22T17:09:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.51</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/blog-cat/La-parada-de-Seebook-aquest-Sant-Jordi-2016-a-Barcelona.html</loc>
@@ -394,7 +406,7 @@
     <loc>http://www.seebook.eu/El-concepto-Exlib.html?utm_source=Blog&amp;utm_medium=Blog&amp;utm_campaign=Blog%20ebook%20olor</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.41</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/blog/el-olor-a-papel-de-libros-impresos.html</loc>
