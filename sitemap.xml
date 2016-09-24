@@ -73,12 +73,6 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://www.seebook.eu/audioguia/</loc>
-    <lastmod>2016-05-26T10:36:13+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>http://www.seebook.eu/musica/</loc>
     <lastmod>2016-05-26T10:36:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -223,12 +217,6 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://www.seebook.eu/audioguide-de/</loc>
-    <lastmod>2016-05-26T10:36:13+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>http://www.seebook.eu/de/kontakt.html</loc>
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,12 +257,6 @@
     <lastmod>2016-05-26T10:36:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>http://www.seebook.eu/audioguia-cat/</loc>
-    <lastmod>2016-05-26T10:36:13+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.seebook.eu/ca/llibreters.html</loc>
